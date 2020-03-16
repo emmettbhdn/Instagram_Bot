@@ -26,4 +26,4 @@ I'm still learning and i'm not perfect, so is this bot. There is a possibility, 
 
 Again thanks for looking at my project and have a good day,
 
-athlalon :)
+athalon :)
