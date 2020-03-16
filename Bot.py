@@ -4,15 +4,14 @@ from time import sleep as sl
 
 
 class InstaBot:
-    def __init__(self, usr_name, password, url):
+    def __init__(self, usr_name, password, driver_path):
         self.usr_name = usr_name
         self.password = password
-        self.url = url
-        self.bot = webdriver.Chrome("C:/Users/ko/Desktop/Emmett/Programming/Scripts/Python Scripts/Insta_Bot/chromedriver.exe")
+        self.bot = webdriver.Chrome(str(driver_path))
 
     def login(self):
         bot = self.bot
-        url = self.url
+        url = "https://www.instagram.com/accounts/login/?hl=en&source=auth_switcher"
         bot.get(url)
         print(f"Connected to {url}")
         sl(1)
@@ -34,3 +33,8 @@ class InstaBot:
         button = bot.find_element_by_class_name('aOOlW.HoLwm')
         button.click()
 
+
+
+if __name__ == "__main__":
+    test = InstaBot('throwaway12341341234@gmail.com', 'Emmett3D!', "C:/Users/ko/Desktop/Emmett/Programming/Scripts/Python Scripts/Insta_Bot/chromedriver.exe")
+    test.login()
