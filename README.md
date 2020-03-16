@@ -1,5 +1,7 @@
 This is a bot for instagram, that i wrote on the first of Feburary 2020. It only works with Instagram.
 
+In this README i will be talking about a driver called chromedriver. The original name is "Selenium Webdriver Chrome" for shortness i'll be calling it chromedriver
+
 For this bot to work you need chromedriver and chrome, because this is written for chrome.
 I've included chromedriver.exe in this repository for you to use
 
@@ -12,7 +14,7 @@ The setup of the bot looks something like this:
 import Bot
 
 someUser = Bot.InstaBot(username, password, Chromedriver_Path)
-someUser.logi
+someUser.login
 
 
 
