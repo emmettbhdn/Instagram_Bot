@@ -1,4 +1,5 @@
 This is a bot for instagram, that i wrote on the first of Feburary 2020. It only works with Instagram.
+The only fuction of this bot is to automatically log into an instagram account.
 
 In this README, I will be talking about a driver called chromedriver. The original name is "Selenium Webdriver Chrome" for shortness I'll be calling it chromedriver
 
