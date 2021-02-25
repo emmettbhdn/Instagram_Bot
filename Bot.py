@@ -36,5 +36,5 @@ class InstaBot:
 
 
 if __name__ == "__main__":
-    test = InstaBot('throwaway12341341234@gmail.com', 'Emmett3D!', "C:/Users/ko/Desktop/Emmett/Programming/Scripts/Python Scripts/Insta_Bot/chromedriver.exe")
+    test = InstaBot('throwaway12341341234@gmail.com', 'password123', "C:/Users/usr/chromedriver.exe")
     test.login()
